@@ -1,0 +1,429 @@
+.img-container {
+    background: rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+
+.img-container img {
+    opacity: 0.75;
+}
+
+.img-container:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        120deg,
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.85)
+    );
+    background-color: #333;
+    opacity: 0.1;
+    mix-blend-mode: color;
+    mix-blend-mode: hard-light;
+    mix-blend-mode: hue;
+}
+
+.img-container > * {
+    z-index: 10;
+}
+
+.blog-date {
+    position: absolute;
+    background: transparent;
+    left: 10px;
+    border-radius: 3px;
+    top: 10px;
+}
+
+.blog-date .date {
+    margin: 0 auto;
+    display: block;
+    padding: 0.5rem;
+}
+
+.blog-date .date .day,
+.blog-date .date .month {
+    color: white;
+    background: transparent;
+}
+
+.one-line-truncate {
+    overflow: hidden;
+    position: relative;
+    line-height: 1.2em;
+    max-height: 1.2em;
+}
+
+.one-line-truncate:before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.one-line-truncate:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+}
+
+.two-line-truncate {
+    overflow: hidden;
+    position: relative;
+    line-height: 1.5em;
+    max-height: 3em;
+}
+
+.two-line-truncate:before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.two-line-truncate:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+}
+
+.main-bg-section {
+    background: url("/themes/fusion/assets/images/background/main-bg.jpg") 0 -60px /
+        cover fixed;
+}
+
+section .bg-light {
+    overflow: hidden;
+    background-color: #f6f7f8;
+    background-image: url("https://uploads-ssl.webflow.com/5cbf7269aa4c8ec895500d90/5cdaff9450ed581fa4454fe6_Wave%20Background.svg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.event-schedule .content .title {
+    display: block;
+    height: 60px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    a.media-link {
+        border: 1px solid;
+        border-radius: 5px;
+        display: block;
+        transition: all 0.3s ease;
+        border-color: #537396 !important;
+    }
+
+    a.media-link:hover {
+        background-color: #358dcc !important;
+        border-color: #358dcc !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    a.media-link {
+        border: 1px solid;
+        border-radius: 5px;
+        display: block;
+        transition: all 0.3s ease;
+        border-color: #537396 !important;
+    }
+
+    a.media-link:hover {
+        background-color: #358dcc !important;
+        border-color: #358dcc !important;
+    }
+}
+
+.partnership-bg-overlay {
+    background-color: rgb(137 147 159);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0px 13px 0px inset;
+    opacity: 0.75;
+}
+
+.slick-slide a {
+    width: 100%;
+    outline: none;
+}
+
+@media (min-width: 460px) {
+    .multiple-cards .card-body .description {
+        height: 4.5rem;
+        overflow: hidden;
+    }
+}
+
+.multiple-cards .card .card-img-top {
+    height: 262px;
+}
+
+.w-35 {
+    width: 35% !important;
+}
+
+.navigation-card-description{
+    font-size:17px;
+}
+
+.get-started-navigation .categories-filter .categories {
+    font-size:16px;
+    min-width:300px;
+}
+
+.title-heading{
+    color:white;
+}
+.subtitle-heading {
+    color: #bed4f0;
+}
+
+ul.roadmap-quarter-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+body.header-nav-sticky .main-padded-section {
+    padding: 140px 0 90px;
+}
+body.header-nav-sticky .section:not(.main-padded-section) {
+    padding: 70px 0px;
+}
+
+.roadmap-quarter-list .roadmap-quarter-item {
+    padding: 5px 0px;
+}
+
+.roadmap-quarter-list .roadmap-quarter-item.pending,
+.roadmap-quarter-list .roadmap-quarter-item.completed {
+    color: #8492a6;
+}
+
+.timeline__item:after {
+    background-color: #358dcc !important;
+    border: 4px solid #cee6f8 !important;
+}
+.timeline:not(.timeline--horizontal):before {
+    background-color: #b1dbf9 !important;
+}
+@media (min-width: 601px) {
+
+    .timeline__content {
+        box-shadow: 0 0 5px -3px black;
+    }
+
+    .timeline__item--right{
+        padding: .625rem .625rem .625rem 2.5rem !important;
+    }
+    .timeline__item--left {
+        padding: .625rem 2.5rem .625rem .625rem !important;
+    }
+
+}
+
+.bg-img-none {
+    background-image:none !important;
+}
+
+.staking-help .nav-link.active {
+    color: #358dcc !important;
+    border: 1px solid #358dcc !important;
+    background-color: rgba(114, 106, 233, 0.1) !important
+}
+.staking-help .nav-link {
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    line-height: 34px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.step-number {
+    background-color:gray;
+    color:white;
+    border-radius:50%;
+}
+.step-description {
+    font-size:1.3rem;
+}
+.step-description .step-description-hint{
+    font-size:1rem;
+}
+.guide-link {
+    min-height:125px;
+}
+
+.form-group .form-control {
+    border-color: #a7a7a7 !important;
+}
+
+.hr {
+    border-color: rgba(53, 141, 204, 0.4);
+}
+@media only screen and (max-width : 768px) {
+    .border-lsm-right {
+        border-right: 1px solid #dee2e6!important;
+    }
+    .border-lsm-left {
+        border-left: 1px solid #dee2e6!important;
+    }
+    .border-lsm-bottom {
+        border-bottom: 1px solid #dee2e6!important;
+    }
+    .border-lsm-top {
+        border-top: 1px solid #dee2e6!important;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .border-xs-right {
+        border-right: 1px solid #dee2e6!important;
+    }
+    .border-xs-left {
+        border-left: 1px solid #dee2e6!important;
+    }
+    .border-xs-bottom {
+        border-bottom: 1px solid #dee2e6!important;
+    }
+    .border-xs-top {
+        border-top: 1px solid #dee2e6!important;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .border-sm-right {
+        border-right: 1px solid #dee2e6!important;
+    }
+    .border-sm-left {
+        border-left: 1px solid #dee2e6!important;
+    }
+    .border-sm-bottom {
+        border-bottom: 1px solid #dee2e6!important;
+    }
+    .border-sm-top {
+        border-top: 1px solid #dee2e6!important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .border-md-right {
+        border-right: 1px solid #dee2e6!important;
+    }
+    .border-md-left {
+        border-left: 1px solid #dee2e6!important;
+    }
+    .border-md-bottom {
+        border-bottom: 1px solid #dee2e6!important;
+    }
+    .border-md-top {
+        border-top: 1px solid #dee2e6!important;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .border-lg-right {
+        border-right: 1px solid #dee2e6!important;
+    }
+    .border-lg-left {
+        border-left: 1px solid #dee2e6!important;
+    }
+    .border-lg-bottom {
+        border-bottom: 1px solid #dee2e6!important;
+    }
+    .border-lg-top {
+        border-top: 1px solid #dee2e6!important;
+    }
+}
+
+.deco-none {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.projects-wrapper.multiple-cards .card .position-relative {
+    max-height: 200px;
+}
+.multiple-cards .card .card-img-top {
+    height: 200px;
+}
+
+.grecaptcha-badge {
+    display: none !important;
+}
+
+@media only screen and (max-width : 480px) {
+    h1 {
+        font-size: 30px !important;
+    }
+    h2 {
+        font-size: 26px !important;
+    }
+    h3 {
+        font-size:24px !important;
+    }
+}
+@media only screen and (max-width:768px){
+    .categories {
+        min-width: 300px;
+    }
+}
+#topnav .navigation-menu > li .submenu li a.disabled {
+    color: gray !important;
+
+}
+
+.img-wrapper {
+    position:relative;
+    overflow:hidden;
+}
+
+.img-wrapper .caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(53, 141, 204, 0.85);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align: left;
+    color:#fff !important;
+    z-index:2;
+}
+
+.slide img {
+    max-width:65%;
+}
+
+.event-schedule .date .day {
+    color: white !important;
+    background-color: #358dcc;
+    line-height:45px !important;
+}
+
+.fiat-exchanges-wrapper .card .position-relative img {
+    object-fit:contain;
+    height:150px;
+    padding: 1.25rem;
+}

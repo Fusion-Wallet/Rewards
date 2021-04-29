@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Done</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#65C1E8" offset="0%"></stop>
+            <stop stop-color="#358DCC" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="12.0597028%" fx="50%" fy="12.0597028%" r="188.396953%" id="radialGradient-2">
+            <stop stop-color="#358DCC" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#5BBBFF" stop-opacity="0.6" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-3" x="17" y="17" width="38" height="38" rx="19"></rect>
+        <filter x="-47.4%" y="-47.4%" width="194.7%" height="194.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.149019608   0 0 0 0 0.196078431   0 0 0 0 0.219607843  0 0 0 0.28 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#94DEFF" offset="0%"></stop>
+            <stop stop-color="#5BBBFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M53.7577439,22.3359987 C53.8983686,22.195374 54.0858685,22.1250617 54.3202426,22.1250617 C54.5546167,22.1250617 54.7655537,22.195374 54.9530536,22.3359987 L56.9217989,24.3750563 C57.1092988,24.515681 57.2030482,24.7031809 57.2030482,24.937555 C57.2030482,25.1719291 57.1092988,25.3828661 56.9217989,25.570366 L35.8280992,46.6640657 C35.6874745,46.8046903 35.4999746,46.8750027 35.2656005,46.8750027 C35.0312264,46.8750027 34.8202894,46.8046903 34.6327895,46.6640657 L25.2812493,37.2422131 C25.0937494,37.1015885 25,36.9140886 25,36.6797145 C25,36.4453404 25.0937494,36.2344034 25.2812493,36.0469035 L27.2499946,34.0781582 C27.4374945,33.8906583 27.6484315,33.7969089 27.8828056,33.7969089 C28.1171797,33.7969089 28.3046796,33.8906583 28.4453043,34.0781582 L35.2656005,40.8984544 L53.7577439,22.3359987 Z" id="path-6"></path>
+        <filter x="-59.0%" y="-68.7%" width="218.0%" height="253.5%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.149019608   0 0 0 0 0.196078431   0 0 0 0 0.219607843  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Done" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" transform="translate(4.000000, 4.000000)" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" x="0" y="0" width="64" height="64" rx="20"></rect>
+        </g>
+        <g id="Rectangle">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <use fill="url(#radialGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+        </g>
+        <g id="c">
+            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+            <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+        </g>
+    </g>
+</svg>
